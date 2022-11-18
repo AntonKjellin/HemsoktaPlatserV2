@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3D4B2476-7BDE-4ED1-BECD-0B0EF7BD2461"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37CC95C1-8495-46A5-AE0F-E0F152003076"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HemsoktaPlatserV2/Views/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "37CC95C1-8495-46A5-AE0F-E0F152003076 - 1f15d807be23f801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HemsoktaPlatserV2.SearchView.init() -&gt; HemsoktaPlatserV2.SearchView"
+                  moduleName = "HemsoktaPlatserV2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anton/Desktop/Project/HemsoktaPlatserV2/HemsoktaPlatserV2/Views/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "37CC95C1-8495-46A5-AE0F-E0F152003076 - 55ad2661f6362c65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HemsoktaPlatserV2.SearchView.init(currentPlace: Swift.Array&lt;Swift.String&gt;) -&gt; HemsoktaPlatserV2.SearchView"
+                  moduleName = "HemsoktaPlatserV2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anton/Desktop/Project/HemsoktaPlatserV2/HemsoktaPlatserV2/Views/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
