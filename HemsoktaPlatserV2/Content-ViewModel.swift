@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-
+// hej
     final class ViewModel: ObservableObject{
         @Published var places = [HPlace]()
         @Published var showingSaved = false
