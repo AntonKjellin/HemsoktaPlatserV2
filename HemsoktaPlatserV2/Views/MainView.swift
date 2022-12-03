@@ -8,30 +8,23 @@
 import SwiftUI
 
 struct MainView: View {
-    
     @StateObject var vm = ViewModel()
+    @State var vmtest = ViewModel()
     
     var body: some View {
-        VStack {
-            
             TabView{
-                MapView()
-                    .tabItem{
-                        Label("Map", systemImage: "map")
-                    }
-                FavoritesView()
-                    .tabItem{
-                        Label("Saved", systemImage: "bookmark")
-                    }
-                SearchView()
-                    .tabItem{
-                        Label("Search", systemImage: "magnifyingglass")
-                    }
-                
+                    MapView(vm: vmtest)
+                        .tabItem{
+                            Label("Map", systemImage: "map")
+                        }
+                    
+                    PlaceView(vm: vmtest)
+                        .tabItem{
+                            Label("Search", systemImage: "magnifyingglass")
+                        }
             }
         }
     }
-}
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {

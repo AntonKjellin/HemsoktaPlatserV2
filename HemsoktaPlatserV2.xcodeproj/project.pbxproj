@@ -10,14 +10,18 @@
 		3A79035529268D7600CA2FDB /* HemsoktaPlatserV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79035429268D7600CA2FDB /* HemsoktaPlatserV2App.swift */; };
 		3A79035929268D7700CA2FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A79035829268D7700CA2FDB /* Assets.xcassets */; };
 		3A79035C29268D7700CA2FDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A79035B29268D7700CA2FDB /* Preview Assets.xcassets */; };
-		3A79036829268D9400CA2FDB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79036729268D9400CA2FDB /* SearchView.swift */; };
 		3A79036A29268D9E00CA2FDB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79036929268D9E00CA2FDB /* MapView.swift */; };
-		3A79036C29268DB300CA2FDB /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79036B29268DB300CA2FDB /* FavoritesView.swift */; };
 		3A79036E29268DC500CA2FDB /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79036D29268DC500CA2FDB /* PlaceDetailView.swift */; };
 		3A79037029268DDE00CA2FDB /* HPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79036F29268DDE00CA2FDB /* HPlace.swift */; };
 		3A790373292693FC00CA2FDB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A790372292693FC00CA2FDB /* MainView.swift */; };
 		3A7903752926AFA400CA2FDB /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7903742926AFA400CA2FDB /* Database.swift */; };
-		3A7903792926B17A00CA2FDB /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7903782926B17A00CA2FDB /* Content-ViewModel.swift */; };
+		3A7903792926B17A00CA2FDB /* Main-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7903782926B17A00CA2FDB /* Main-ViewModel.swift */; };
+		3A790383292A6D8000CA2FDB /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A790382292A6D8000CA2FDB /* PlaceView.swift */; };
+		3A790385292AEE7900CA2FDB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A790384292AEE7900CA2FDB /* Colors.swift */; };
+		3A790388292B9A5100CA2FDB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A790387292B9A5100CA2FDB /* LocationManager.swift */; };
+		3A921BA32938AD9600FF796E /* TagCloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A921BA22938AD9600FF796E /* TagCloudView.swift */; };
+		3A921BA9293BF6A500FF796E /* HPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A921BA8293BF6A500FF796E /* HPlaces.swift */; };
+		3A921BAB293C0B1900FF796E /* HauntedPlaces.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A921BAA293C0B1900FF796E /* HauntedPlaces.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,14 +29,19 @@
 		3A79035429268D7600CA2FDB /* HemsoktaPlatserV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemsoktaPlatserV2App.swift; sourceTree = "<group>"; };
 		3A79035829268D7700CA2FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A79035B29268D7700CA2FDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A79036729268D9400CA2FDB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		3A79036929268D9E00CA2FDB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		3A79036B29268DB300CA2FDB /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		3A79036D29268DC500CA2FDB /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
 		3A79036F29268DDE00CA2FDB /* HPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPlace.swift; sourceTree = "<group>"; };
 		3A790372292693FC00CA2FDB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3A7903742926AFA400CA2FDB /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		3A7903782926B17A00CA2FDB /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+		3A7903782926B17A00CA2FDB /* Main-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main-ViewModel.swift"; sourceTree = "<group>"; };
+		3A790382292A6D8000CA2FDB /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		3A790384292AEE7900CA2FDB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3A790386292B71C100CA2FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A790387292B9A5100CA2FDB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3A921BA22938AD9600FF796E /* TagCloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCloudView.swift; sourceTree = "<group>"; };
+		3A921BA8293BF6A500FF796E /* HPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPlaces.swift; sourceTree = "<group>"; };
+		3A921BAA293C0B1900FF796E /* HauntedPlaces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HauntedPlaces.json; path = ../../../../HauntedPlaces.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +74,11 @@
 		3A79035329268D7600CA2FDB /* HemsoktaPlatserV2 */ = {
 			isa = PBXGroup;
 			children = (
+				3A790386292B71C100CA2FDB /* Info.plist */,
+				3A7903CC292E245900CA2FDB /* UserDefaults */,
+				3A7903CB292E241A00CA2FDB /* Content */,
+				3A7903C8292E23BC00CA2FDB /* Map */,
 				3A79037129268F8300CA2FDB /* Views */,
-				3A79036F29268DDE00CA2FDB /* HPlace.swift */,
-				3A7903782926B17A00CA2FDB /* Content-ViewModel.swift */,
-				3A7903742926AFA400CA2FDB /* Database.swift */,
 				3A79035429268D7600CA2FDB /* HemsoktaPlatserV2App.swift */,
 				3A79035829268D7700CA2FDB /* Assets.xcassets */,
 				3A79035A29268D7700CA2FDB /* Preview Content */,
@@ -87,13 +97,41 @@
 		3A79037129268F8300CA2FDB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3A79036729268D9400CA2FDB /* SearchView.swift */,
 				3A79036929268D9E00CA2FDB /* MapView.swift */,
-				3A79036B29268DB300CA2FDB /* FavoritesView.swift */,
+				3A790382292A6D8000CA2FDB /* PlaceView.swift */,
 				3A79036D29268DC500CA2FDB /* PlaceDetailView.swift */,
 				3A790372292693FC00CA2FDB /* MainView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3A7903C8292E23BC00CA2FDB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3A790387292B9A5100CA2FDB /* LocationManager.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		3A7903CB292E241A00CA2FDB /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A790384292AEE7900CA2FDB /* Colors.swift */,
+				3A79036F29268DDE00CA2FDB /* HPlace.swift */,
+				3A921BA22938AD9600FF796E /* TagCloudView.swift */,
+				3A921BA8293BF6A500FF796E /* HPlaces.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		3A7903CC292E245900CA2FDB /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				3A7903782926B17A00CA2FDB /* Main-ViewModel.swift */,
+				3A921BAA293C0B1900FF796E /* HauntedPlaces.json */,
+				3A7903742926AFA400CA2FDB /* Database.swift */,
+			);
+			path = UserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +194,7 @@
 			files = (
 				3A79035C29268D7700CA2FDB /* Preview Assets.xcassets in Resources */,
 				3A79035929268D7700CA2FDB /* Assets.xcassets in Resources */,
+				3A921BAB293C0B1900FF796E /* HauntedPlaces.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,14 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A79036829268D9400CA2FDB /* SearchView.swift in Sources */,
+				3A921BA32938AD9600FF796E /* TagCloudView.swift in Sources */,
 				3A7903752926AFA400CA2FDB /* Database.swift in Sources */,
+				3A790385292AEE7900CA2FDB /* Colors.swift in Sources */,
+				3A790388292B9A5100CA2FDB /* LocationManager.swift in Sources */,
+				3A790383292A6D8000CA2FDB /* PlaceView.swift in Sources */,
 				3A79036A29268D9E00CA2FDB /* MapView.swift in Sources */,
 				3A790373292693FC00CA2FDB /* MainView.swift in Sources */,
 				3A79036E29268DC500CA2FDB /* PlaceDetailView.swift in Sources */,
-				3A79036C29268DB300CA2FDB /* FavoritesView.swift in Sources */,
+				3A921BA9293BF6A500FF796E /* HPlaces.swift in Sources */,
 				3A79037029268DDE00CA2FDB /* HPlace.swift in Sources */,
-				3A7903792926B17A00CA2FDB /* Content-ViewModel.swift in Sources */,
+				3A7903792926B17A00CA2FDB /* Main-ViewModel.swift in Sources */,
 				3A79035529268D7600CA2FDB /* HemsoktaPlatserV2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,11 +348,15 @@
 				DEVELOPMENT_TEAM = 2752P32MRN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HemsoktaPlatserV2/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Hitta 2";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hitta 1";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,11 +381,15 @@
 				DEVELOPMENT_TEAM = 2752P32MRN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HemsoktaPlatserV2/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Hitta 2";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Hitta 1";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
