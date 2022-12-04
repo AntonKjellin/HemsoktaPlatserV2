@@ -9,16 +9,15 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject var vm = ViewModel()
-    @State var vmtest = ViewModel()
     
     var body: some View {
             TabView{
-                    MapView(vm: vmtest)
+                    MapView(vm: vm)
                         .tabItem{
                             Label("Map", systemImage: "map")
                         }
                     
-                    PlaceView(vm: vmtest)
+                    PlaceView(vm: vm)
                         .tabItem{
                             Label("Search", systemImage: "magnifyingglass")
                         }

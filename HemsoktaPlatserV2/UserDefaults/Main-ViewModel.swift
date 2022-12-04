@@ -25,7 +25,7 @@ import Foundation
         }
         
         func contains(_ place: HPlace) -> Bool{
-            savedPlaces.contains(place.id)
+                savedPlaces.contains(place.id)
         }
         
         
