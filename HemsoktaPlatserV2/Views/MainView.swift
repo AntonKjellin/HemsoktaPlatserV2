@@ -19,11 +19,11 @@ struct MainView: View {
                     .tabItem{
                         Label("Map", systemImage: "map")
                     }
-                FavoritesView()
+                FavoritesView(vm: vm)
                     .tabItem{
                         Label("Saved", systemImage: "bookmark")
                     }
-                SearchView()
+                SearchView(vm: vm)
                     .tabItem{
                         Label("Search", systemImage: "magnifyingglass")
                     }
