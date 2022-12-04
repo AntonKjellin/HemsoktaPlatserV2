@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2996A6293D16BB007F2C3E /* Main-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2996A4293D16BB007F2C3E /* Main-ViewModel.swift */; };
+		3A2996A7293D16BB007F2C3E /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2996A5293D16BB007F2C3E /* Database.swift */; };
 		3A79035529268D7600CA2FDB /* HemsoktaPlatserV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79035429268D7600CA2FDB /* HemsoktaPlatserV2App.swift */; };
 		3A79035929268D7700CA2FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A79035829268D7700CA2FDB /* Assets.xcassets */; };
 		3A79035C29268D7700CA2FDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A79035B29268D7700CA2FDB /* Preview Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2996A4293D16BB007F2C3E /* Main-ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Main-ViewModel.swift"; sourceTree = "<group>"; };
+		3A2996A5293D16BB007F2C3E /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		3A79035129268D7600CA2FDB /* HemsoktaPlatserV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemsoktaPlatserV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A79035429268D7600CA2FDB /* HemsoktaPlatserV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HemsoktaPlatserV2App.swift; sourceTree = "<group>"; };
 		3A79035829268D7700CA2FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2996A3293D16BB007F2C3E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				3A2996A4293D16BB007F2C3E /* Main-ViewModel.swift */,
+				3A2996A5293D16BB007F2C3E /* Database.swift */,
+			);
+			name = UserDefaults;
+			sourceTree = "<group>";
+		};
 		3A79034829268D7600CA2FDB = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +142,7 @@
 			children = (
 				3A7903782926B17A00CA2FDB /* Main-ViewModel.swift */,
 				3A921BAA293C0B1900FF796E /* HauntedPlaces.json */,
+				3A2996A3293D16BB007F2C3E /* UserDefaults */,
 				3A7903742926AFA400CA2FDB /* Database.swift */,
 			);
 			path = UserDefaults;
@@ -209,6 +223,7 @@
 				3A7903752926AFA400CA2FDB /* Database.swift in Sources */,
 				3A790385292AEE7900CA2FDB /* Colors.swift in Sources */,
 				3A790388292B9A5100CA2FDB /* LocationManager.swift in Sources */,
+				3A2996A6293D16BB007F2C3E /* Main-ViewModel.swift in Sources */,
 				3A790383292A6D8000CA2FDB /* PlaceView.swift in Sources */,
 				3A79036A29268D9E00CA2FDB /* MapView.swift in Sources */,
 				3A790373292693FC00CA2FDB /* MainView.swift in Sources */,
@@ -216,6 +231,7 @@
 				3A921BA9293BF6A500FF796E /* HPlaces.swift in Sources */,
 				3A79037029268DDE00CA2FDB /* HPlace.swift in Sources */,
 				3A7903792926B17A00CA2FDB /* Main-ViewModel.swift in Sources */,
+				3A2996A7293D16BB007F2C3E /* Database.swift in Sources */,
 				3A79035529268D7600CA2FDB /* HemsoktaPlatserV2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
